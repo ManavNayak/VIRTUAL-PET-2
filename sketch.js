@@ -20,7 +20,7 @@ function setup() {
   database = firebase.database();
   console.log(database);
  
-  foodobject=new Food()
+  foodobject=new Food();
   dog = createSprite(550,250,10,10);
   dog.addImage(dogimg1)
   dog.scale=0.2
